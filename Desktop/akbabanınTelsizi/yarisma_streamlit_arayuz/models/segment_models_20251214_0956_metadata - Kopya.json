@@ -1,0 +1,7 @@
+{
+  "model_type": "Segment-Specific XGBoost Models",
+  "created_at": "2025-12-14T09:56:05.140342",
+  "segments": {
+    "0-500K": {
+      "model_file": "segment_model_0_500K_20251214_0956.joblib",
+      "n_train": 
