@@ -1,5 +1,4 @@
 /data/
-models/
 *.pt
 *.t7
 *.zip
