@@ -19,12 +19,13 @@ MR görüntülerinden **4 sınıf** beyin tümörü sınıflandırması — PyTo
 | MultiScale_EffNet | 0.9776 | 0.9777 | 0.9795 | 0.9785 | 0.9699 | 0.9990 |
 | EffNet_ResNet_CrossAttention | 0.9764 | 0.9758 | 0.9793 | 0.9773 | 0.9683 | 0.9985 |
 | EffNet_SpatialAttention_Residual | 0.9731 | 0.9723 | 0.9766 | 0.9742 | 0.9638 | 0.9979 |
-| Hierarchical_CNN_AttnPool | 0.9590 | 0.9582 | 0.9628 | 0.9602 | 0.9449 | 0.9972 |
 | EffNetB0_MobileNetV2_Hybrid | 0.9615 | 0.9606 | 0.9651 | 0.9629 | 0.9483 | 0.9964 |
+| Hierarchical_CNN_AttnPool | 0.9590 | 0.9582 | 0.9628 | 0.9602 | 0.9449 | 0.9972 |
 | MARK1 | 0.9573 | 0.9565 | 0.9601 | 0.9580 | 0.9427 | 0.9961 |
 | MARK0 | 0.9486 | 0.9487 | 0.9529 | 0.9503 | 0.9310 | 0.9905 |
 | ResNet18_EffNetB0_Hybrid | 0.9329 | 0.9317 | 0.9382 | 0.9344 | 0.9099 | 0.9917 |
 | DenseNet121_MobileNetV2 | 0.9258 | 0.9247 | 0.9306 | 0.9271 | 0.9004 | 0.9906 |
+| EffNet_CBAM_LSTM | 0.9035 | 0.9100 | 0.9100 | 0.9100 | — | — |
 
 > `Test.py` ile inference için: **DenseNet_SE_LSTM**, **MARK0**, **MARK1** TorchScript modelleri gerekli.
 
@@ -135,6 +136,7 @@ Bar chart, heatmap, radar, scatter, parallel coordinates grafikleri → `image/`
 - **EffNet_ResNet_CrossAttention**: EfficientNet + ResNet çapraz dikkat mekanizması
 - **EffNet_SpatialAttention_Residual**: Spatial attention + residual bağlantılar
 - **Hierarchical_CNN_AttnPool**: Hiyerarşik CNN + attention pooling
+- **EffNet_CBAM_LSTM**: EfficientNet + CBAM (Channel + Spatial Attention) + LSTM
 - **MARK0/MARK1**: EfficientNetB0 + MobileNetV2 hibrit ensemble
 
 ---
